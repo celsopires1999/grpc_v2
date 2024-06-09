@@ -9,14 +9,8 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "/workspaces/codecrafters-redis-go/app/main.go",
-            "args": [
-                "--dir",
-                ".",
-                "--dbfilename",
-                "dump.rdb"
-            ],
-            "cwd": "/workspaces/codecrafters-redis-go"
+            "program": "/workspaces/grpc/cmd/grpcServer/main.go",
+            "cwd": "/workspaces/grpc"
         }
     ]
 }
